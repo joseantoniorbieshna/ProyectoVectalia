@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cobro con targeta" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cobro con tarjeta" version="4">
   <OBJECT>
-    <ID name="Cobro con targeta" mc="Standard.UseCase" uid="780a0a89-727b-4466-ba6c-b81e2dbc9d05"/>
+    <ID name="Cobro con tarjeta" mc="Standard.UseCase" uid="780a0a89-727b-4466-ba6c-b81e2dbc9d05"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Cobro con targeta]]></ATT>
+      <ATT name="Name"><![CDATA[Cobro con tarjeta]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
