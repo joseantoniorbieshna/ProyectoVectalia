@@ -12,6 +12,63 @@
       <ATT name="Name"><![CDATA[proyectovectalia]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuario" mc="Standard.Actor" uid="28be2b4e-e2ae-4ce5-bb2e-942a1552325f"/>
+        <COMPID name="Pedir cita" mc="Standard.UseCase" uid="6e27fecd-84b8-4168-acf8-1832f34e4c90"/>
+        <COMPID name="Registrarse" mc="Standard.UseCase" uid="fb3d43cb-d512-4187-bb5f-4d999c91a9c4"/>
+        <COMPID name="Modificar datos" mc="Standard.UseCase" uid="cd92bf1d-6650-4467-88f2-7de150ae4887"/>
+        <COMPID name="Recargar abono mes" mc="Standard.UseCase" uid="59a27dac-5977-4007-a6ce-f14d860533d0"/>
+        <COMPID name="Recarga viajes" mc="Standard.UseCase" uid="67cdc6f2-e101-4abf-90cf-433a2897cb0f"/>
+        <COMPID name="Consultar horarios" mc="Standard.UseCase" uid="93c9d292-5e0c-4ba5-a6ff-9f8c2673ce56"/>
+        <COMPID name="Consultar rutas" mc="Standard.UseCase" uid="3a3f478f-3ea1-4676-b466-700d0e7521ae"/>
+        <COMPID name="Guardar paradas o lineas favoritas" mc="Standard.UseCase" uid="4e884b9b-db97-4553-bf13-35f9a9338ced"/>
+        <COMPID name="Consultar preferencias" mc="Standard.UseCase" uid="9c0346e2-8d7c-4496-a90f-5398b2078814"/>
+        <COMPID name="Calificar servicios" mc="Standard.UseCase" uid="54bb60a9-ca92-4ffb-86ff-9ffcc4dce4ca"/>
+        <COMPID name="Consultar alertas" mc="Standard.UseCase" uid="e53c4aed-c569-4256-a201-6b8828eb377d"/>
+        <COMPID name="Reportar incidencia" mc="Standard.UseCase" uid="c3dff3fd-19ba-48df-af3e-ac467f1702d3"/>
+        <COMPID name="Jefe" mc="Standard.Actor" uid="724f60d4-c052-4187-b88d-60bc07e007d6"/>
+        <COMPID name="Dar de alta empleado" mc="Standard.UseCase" uid="6fa5fd2f-4bef-4588-85b1-f3eda7be1ae8"/>
+        <COMPID name="Modificar contrato" mc="Standard.UseCase" uid="96e0b659-c973-45ac-829d-1298a6922839"/>
+        <COMPID name="Dar de baja empleado" mc="Standard.UseCase" uid="6ea06208-7e24-4eb4-9d01-a6d1c5d43835"/>
+        <COMPID name="Alta bus" mc="Standard.UseCase" uid="67daff75-d497-4bf8-b718-bd5a94641045"/>
+        <COMPID name="Ver estado bus" mc="Standard.UseCase" uid="8c4846d5-87f2-4d54-af4f-53c5d79e0854"/>
+        <COMPID name="Baja bus" mc="Standard.UseCase" uid="c584c89e-c572-4874-803f-7b43239d631f"/>
+        <COMPID name="Actualizar tarifas" mc="Standard.UseCase" uid="2afa864e-4d7f-45b6-9f8e-851e10ae2d09"/>
+        <COMPID name="Actualizar paradas" mc="Standard.UseCase" uid="ccec583d-b266-4ab7-989e-be98b6b6cc34"/>
+        <COMPID name="Actualizar línea" mc="Standard.UseCase" uid="c7c115a7-7aa0-48f3-a410-f784c66c624c"/>
+        <COMPID name="Resolver incidencia" mc="Standard.UseCase" uid="d33654de-cc25-479a-893b-e39a39c75625"/>
+        <COMPID name="Consultar informe" mc="Standard.UseCase" uid="489843c7-5634-40ca-ad21-0aa07db00faf"/>
+        <COMPID name="Consultar incidencia" mc="Standard.UseCase" uid="8df76af0-2314-4a70-ae33-6f6dd7be5ec3"/>
+        <COMPID name="Administrativo" mc="Standard.Actor" uid="ac227c6e-feb5-4fe6-a0b3-3baad4da11ef"/>
+        <COMPID name="Atender cita" mc="Standard.UseCase" uid="bf3841f5-c47c-49ce-ae8c-e53cbf018d6a"/>
+        <COMPID name="Dar alta usuario" mc="Standard.UseCase" uid="9c252d09-3f16-4fa0-ba9c-2bd542510d80"/>
+        <COMPID name="Dar baja usuario" mc="Standard.UseCase" uid="a0d84351-ac04-421f-bffe-04505736c1b4"/>
+        <COMPID name="Actualizar usuario" mc="Standard.UseCase" uid="ccbafe73-b48d-4d75-9814-b6619490f8f8"/>
+        <COMPID name="Obtener información usuario" mc="Standard.UseCase" uid="2226df8f-6dda-4578-8908-cdfdf0113619"/>
+        <COMPID name="Consultar estadisticas" mc="Standard.UseCase" uid="724d1e83-f981-4217-9c7d-2de02d336b1a"/>
+        <COMPID name="Generar informe" mc="Standard.UseCase" uid="609ce570-0e28-44e8-b43a-745841df1b65"/>
+        <COMPID name="Enviar informe a jefe" mc="Standard.UseCase" uid="f48d8e50-090e-4a8a-9b99-4427fc50c31a"/>
+        <COMPID name="Recibir incidencia" mc="Standard.UseCase" uid="687ead85-c33d-45d3-b1ff-631fe25dcf72"/>
+        <COMPID name="Pasar incidencia a jefe" mc="Standard.UseCase" uid="7684a0c1-f070-4dad-b2fb-140d70dacdd9"/>
+        <COMPID name="Conductor" mc="Standard.Actor" uid="195d1d8c-4dec-4cc8-9ad8-f0af5f613c4a"/>
+        <COMPID name="Reportar retraso" mc="Standard.UseCase" uid="82a46774-8c72-4511-a4ce-62cee053eb63"/>
+        <COMPID name="Ver horario" mc="Standard.UseCase" uid="159ac86b-9e80-4be9-a2d7-1b0de4a888c8"/>
+        <COMPID name="Actualizar estado bus" mc="Standard.UseCase" uid="5c92b7d0-0187-48b5-b1ba-bc158cea3867"/>
+        <COMPID name="Recargar viajes" mc="Standard.UseCase" uid="e24e0a06-2a23-46a5-9af7-809f9a4f050b"/>
+        <COMPID name="Cobro viajes" mc="Standard.UseCase" uid="dff54f5b-8c09-4b0f-afdd-e6b5e5a429aa"/>
+        <COMPID name="Cobro en efectivo" mc="Standard.UseCase" uid="64957c99-71b8-4d6b-a964-6f9f836fdd4a"/>
+        <COMPID name="Cobro con targeta" mc="Standard.UseCase" uid="780a0a89-727b-4466-ba6c-b81e2dbc9d05"/>
+        <COMPID name="Cobro con abono" mc="Standard.UseCase" uid="4b79d1d6-a16f-4a78-a572-95b933694e60"/>
+        <COMPID name="Generar estadistica diaria" mc="Standard.UseCase" uid="2c2aa8d0-d4a6-4815-8f38-872d87229cc4"/>
+        <COMPID name="Notificar incidencia diaria" mc="Standard.UseCase" uid="0eb33719-ce15-426d-8682-db7722d9840a"/>
+        <COMPID name="Asignar horario diario" mc="Standard.UseCase" uid="940b82c1-ee0b-4993-8903-bac24db980cf"/>
+        <COMPID name="Notificar estado flota diario" mc="Standard.UseCase" uid="f88f095e-8b38-473a-993a-6819e519e8d7"/>
+        <COMPID name="Notificar alertas diario" mc="Standard.UseCase" uid="9b0ac773-e0d6-47cb-8e77-6a2f8eca6d49"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Casos de Uso Vectalia" mc="Standard.UseCaseDiagram" uid="401ccfb9-b1ee-49d8-9b22-0ad38495397b"/>
+      </COMP>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>
