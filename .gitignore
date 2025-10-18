@@ -1,0 +1,21 @@
+# === Modelio ===
+.runtime/
+data/.config/
+
+# Archivos temporales y logs
+*.lock
+*.log
+*.tmp
+*.bak
+*.backup
+*.cache
+
+# === IDEs ===
+.vscode/
+.idea/
+*.iml
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini

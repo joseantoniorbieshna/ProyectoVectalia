@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ProyectoVectalia" version="4">
+  <OBJECT>
+    <ID name="ProyectoVectalia" mc="Standard.Project" uid="85bfc1c4-240d-417f-ac42-48636df40bd3"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[ProyectoVectalia]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="ProyectoVectalia" mc="Infrastructure.DiagramSet" uid="fca3c800-b4b3-4a23-8c8b-e80d5be50ace"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
