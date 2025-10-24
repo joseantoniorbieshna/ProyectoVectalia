@@ -21,7 +21,7 @@
         <COMPID name="Recargar abono mes" mc="Standard.UseCase" uid="59a27dac-5977-4007-a6ce-f14d860533d0"/>
         <COMPID name="Recarga viajes" mc="Standard.UseCase" uid="67cdc6f2-e101-4abf-90cf-433a2897cb0f"/>
         <COMPID name="Consultar horarios" mc="Standard.UseCase" uid="93c9d292-5e0c-4ba5-a6ff-9f8c2673ce56"/>
-        <COMPID name="Consultar rutas" mc="Standard.UseCase" uid="3a3f478f-3ea1-4676-b466-700d0e7521ae"/>
+        <COMPID name="Consultar líneas" mc="Standard.UseCase" uid="3a3f478f-3ea1-4676-b466-700d0e7521ae"/>
         <COMPID name="Guardar paradas o lineas favoritas" mc="Standard.UseCase" uid="4e884b9b-db97-4553-bf13-35f9a9338ced"/>
         <COMPID name="Consultar preferencias" mc="Standard.UseCase" uid="9c0346e2-8d7c-4496-a90f-5398b2078814"/>
         <COMPID name="Calificar servicios" mc="Standard.UseCase" uid="54bb60a9-ca92-4ffb-86ff-9ffcc4dce4ca"/>
@@ -53,21 +53,39 @@
         <COMPID name="Pasar incidencia a jefe" mc="Standard.UseCase" uid="7684a0c1-f070-4dad-b2fb-140d70dacdd9"/>
         <COMPID name="Conductor" mc="Standard.Actor" uid="195d1d8c-4dec-4cc8-9ad8-f0af5f613c4a"/>
         <COMPID name="Reportar retraso" mc="Standard.UseCase" uid="82a46774-8c72-4511-a4ce-62cee053eb63"/>
-        <COMPID name="Ver horario" mc="Standard.UseCase" uid="159ac86b-9e80-4be9-a2d7-1b0de4a888c8"/>
+        <COMPID name="Ver horario jornada" mc="Standard.UseCase" uid="159ac86b-9e80-4be9-a2d7-1b0de4a888c8"/>
         <COMPID name="Actualizar estado bus" mc="Standard.UseCase" uid="5c92b7d0-0187-48b5-b1ba-bc158cea3867"/>
         <COMPID name="Recargar viajes" mc="Standard.UseCase" uid="e24e0a06-2a23-46a5-9af7-809f9a4f050b"/>
         <COMPID name="Cobro viajes" mc="Standard.UseCase" uid="dff54f5b-8c09-4b0f-afdd-e6b5e5a429aa"/>
         <COMPID name="Cobro en efectivo" mc="Standard.UseCase" uid="64957c99-71b8-4d6b-a964-6f9f836fdd4a"/>
-        <COMPID name="Cobro con targeta" mc="Standard.UseCase" uid="780a0a89-727b-4466-ba6c-b81e2dbc9d05"/>
+        <COMPID name="Cobro con tarjeta" mc="Standard.UseCase" uid="780a0a89-727b-4466-ba6c-b81e2dbc9d05"/>
         <COMPID name="Cobro con abono" mc="Standard.UseCase" uid="4b79d1d6-a16f-4a78-a572-95b933694e60"/>
         <COMPID name="Generar estadistica diaria" mc="Standard.UseCase" uid="2c2aa8d0-d4a6-4815-8f38-872d87229cc4"/>
         <COMPID name="Notificar incidencia diaria" mc="Standard.UseCase" uid="0eb33719-ce15-426d-8682-db7722d9840a"/>
         <COMPID name="Asignar horario diario" mc="Standard.UseCase" uid="940b82c1-ee0b-4993-8903-bac24db980cf"/>
         <COMPID name="Notificar estado flota diario" mc="Standard.UseCase" uid="f88f095e-8b38-473a-993a-6819e519e8d7"/>
         <COMPID name="Notificar alertas diario" mc="Standard.UseCase" uid="9b0ac773-e0d6-47cb-8e77-6a2f8eca6d49"/>
+        <COMPID name="Usuario" mc="Standard.Class" uid="3bb3a69f-c7c1-484a-81bd-452d62ca27a3"/>
+        <COMPID name="Tarjeta transporte" mc="Standard.Class" uid="5546bafe-beb4-485a-85e1-09763c0ef324"/>
+        <COMPID name="Abono" mc="Standard.Class" uid="cb794e24-ceae-4783-ae42-7ca27fd5ae63"/>
+        <COMPID name="Calificacion" mc="Standard.Class" uid="f30711e5-5fa1-404d-b422-a01f71bd9fbf"/>
+        <COMPID name="Incidencia" mc="Standard.Class" uid="856e60c2-d756-4b7f-9b95-a2ff271e627a"/>
+        <COMPID name="Alerta" mc="Standard.Class" uid="815c677d-f6f5-4ed9-9bea-09e488aa97ac"/>
+        <COMPID name="Cita" mc="Standard.Class" uid="65480d88-e953-4333-bab9-758ad3a6cec0"/>
+        <COMPID name="Viaje" mc="Standard.Class" uid="73fd04b7-715a-4be9-a0df-bb8fbd878aec"/>
+        <COMPID name="Administrativo" mc="Standard.Class" uid="0c6ecc56-db36-4ac0-abb3-a6ca434574fd"/>
+        <COMPID name="Jefe" mc="Standard.Class" uid="a2c0952e-0af2-4a0a-a585-a27831b9bffa"/>
+        <COMPID name="Tarifa" mc="Standard.Class" uid="4e07df30-32e0-4bb0-a984-ddb245104797"/>
+        <COMPID name="Conductor" mc="Standard.Class" uid="eaf3bcd7-0730-421a-84c7-df7ab486eed6"/>
+        <COMPID name="Bus" mc="Standard.Class" uid="0d104b73-be3f-4971-b719-d22d7648a426"/>
+        <COMPID name="Linea" mc="Standard.Class" uid="f43fa83d-0b6e-4dc7-9399-11fe6c43ae23"/>
+        <COMPID name="Parada" mc="Standard.Class" uid="7cf11ae2-dc66-45d8-a438-3d99572a1a22"/>
+        <COMPID name="Conduce" mc="Standard.Class" uid="3b07a857-085d-4885-b5d8-4e89bc63e4f4"/>
+        <COMPID name="Retraso" mc="Standard.Class" uid="e3aace71-d0f4-4335-9240-4bff02d32c86"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Casos de Uso Vectalia" mc="Standard.UseCaseDiagram" uid="401ccfb9-b1ee-49d8-9b22-0ad38495397b"/>
+        <COMPID name="Diagrama de clases Vectalia" mc="Standard.ClassDiagram" uid="d5ea9bac-9114-43fd-961a-5ae65de50b82"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
