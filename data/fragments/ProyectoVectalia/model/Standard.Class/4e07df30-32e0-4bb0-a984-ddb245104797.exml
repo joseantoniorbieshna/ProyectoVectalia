@@ -77,6 +77,9 @@
         <REFOBJ>
           <ID name="viaje" mc="Standard.AssociationEnd" uid="aa1d881d-c973-4909-96ff-b70f4fc28413"/>
         </REFOBJ>
+        <REFOBJ>
+          <ID name="contiene" mc="Standard.AssociationEnd" uid="569e66c1-d0bf-4cb3-9ef0-a19f80c83296"/>
+        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

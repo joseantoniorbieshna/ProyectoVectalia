@@ -225,9 +225,6 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <REFOBJ>
-          <ID name="pertenece" mc="Standard.AssociationEnd" uid="477dacd1-4604-4cf5-b4e0-450c2cf97f40"/>
-        </REFOBJ>
         <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="4fcdafa3-92ad-43b9-8a80-d86b8dbf9ab9"/>
           <ATTRIBUTES>
