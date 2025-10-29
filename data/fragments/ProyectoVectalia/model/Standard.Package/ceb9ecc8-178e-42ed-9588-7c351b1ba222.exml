@@ -90,8 +90,6 @@
         <COMPID name="GestorIncidencia" mc="Standard.Class" uid="a6a8215a-d546-46b9-b6fa-483353584c6c"/>
         <COMPID name="ListaTarifa" mc="Standard.Class" uid="22351e00-7f28-460f-98e2-e7a1905fb638"/>
         <COMPID name="GestorTarifa" mc="Standard.Class" uid="5b4b2b06-c107-41ae-a5c2-9e747fc48df8"/>
-        <COMPID name="ListaCita" mc="Standard.Class" uid="ef292b6a-abc5-480c-8283-beda5b6f53c1"/>
-        <COMPID name="GestorCita" mc="Standard.Class" uid="4c31570a-9dcb-4948-8f6e-d28d513ec080"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Casos de Uso Vectalia" mc="Standard.UseCaseDiagram" uid="401ccfb9-b1ee-49d8-9b22-0ad38495397b"/>

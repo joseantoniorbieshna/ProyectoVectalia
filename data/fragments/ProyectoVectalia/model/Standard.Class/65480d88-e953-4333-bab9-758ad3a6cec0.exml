@@ -190,9 +190,6 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <REFOBJ>
-          <ID name="contiene" mc="Standard.AssociationEnd" uid="970f3746-bd32-443d-80d7-2e974103b8e4"/>
-        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
