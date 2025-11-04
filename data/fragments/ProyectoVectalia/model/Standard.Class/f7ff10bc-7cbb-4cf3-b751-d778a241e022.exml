@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GestorTarifa" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaConductor" version="4">
   <OBJECT>
-    <ID name="GestorTarifa" mc="Standard.Class" uid="5b4b2b06-c107-41ae-a5c2-9e747fc48df8"/>
+    <ID name="ListaConductor" mc="Standard.Class" uid="f7ff10bc-7cbb-4cf3-b751-d778a241e022"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[GestorTarifa]]></ATT>
+      <ATT name="Name"><![CDATA[ListaConductor]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="75338c19-f8e6-4371-b20a-1210c76e52c2"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="f303807a-8830-4742-a527-999050f705a8"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -36,7 +36,7 @@
           <DEPENDENCIES>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="usa" mc="Standard.AssociationEnd" uid="4ea33b8d-c433-462d-9e8f-0125cfe3a0e7"/>
+                <ID name="usa" mc="Standard.AssociationEnd" uid="a0f8c50c-35e1-40d6-9673-c220f8591036"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -54,11 +54,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="75338c19-f8e6-4371-b20a-1210c76e52c2"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="f303807a-8830-4742-a527-999050f705a8"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="091f70af-5236-4fdf-bd48-96bbefd63e7a"/>
+                      <ID name="" mc="Standard.Association" uid="0954b576-b5ed-45d7-b944-b448d105ce56"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -70,10 +70,13 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="091f70af-5236-4fdf-bd48-96bbefd63e7a"/>
+              <COMPID name="" mc="Standard.Association" uid="0954b576-b5ed-45d7-b944-b448d105ce56"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="uso" mc="Standard.AssociationEnd" uid="f8e68d57-497d-45f6-97b1-5681b4d101b4"/>
+        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
