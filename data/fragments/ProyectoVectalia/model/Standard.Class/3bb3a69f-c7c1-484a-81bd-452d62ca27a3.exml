@@ -380,7 +380,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="usuario" mc="Standard.AssociationEnd" uid="983e6a53-9902-4553-bfd2-5323e584c660"/>
+          <ID name="registra" mc="Standard.AssociationEnd" uid="983e6a53-9902-4553-bfd2-5323e584c660"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -393,7 +393,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[usuario]]></ATT>
+            <ATT name="Name"><![CDATA[registra]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -417,7 +417,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="usuario" mc="Standard.AssociationEnd" uid="983e6a53-9902-4553-bfd2-5323e584c660"/>
+                    <COMPID name="registra" mc="Standard.AssociationEnd" uid="983e6a53-9902-4553-bfd2-5323e584c660"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
