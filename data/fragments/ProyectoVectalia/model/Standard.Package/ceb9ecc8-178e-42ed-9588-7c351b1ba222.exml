@@ -80,7 +80,6 @@
         <COMPID name="Bus" mc="Standard.Class" uid="0d104b73-be3f-4971-b719-d22d7648a426"/>
         <COMPID name="Linea" mc="Standard.Class" uid="f43fa83d-0b6e-4dc7-9399-11fe6c43ae23"/>
         <COMPID name="Parada" mc="Standard.Class" uid="7cf11ae2-dc66-45d8-a438-3d99572a1a22"/>
-        <COMPID name="Conduce" mc="Standard.Class" uid="3b07a857-085d-4885-b5d8-4e89bc63e4f4"/>
         <COMPID name="Retraso" mc="Standard.Class" uid="e3aace71-d0f4-4335-9240-4bff02d32c86"/>
         <COMPID name="ListaCita" mc="Standard.Class" uid="ceea9ddd-305e-4996-8dcc-c259cbee05f3"/>
         <COMPID name="GestorCita" mc="Standard.Class" uid="ede2e069-3339-42e1-bd64-afbf2eaf3577"/>
