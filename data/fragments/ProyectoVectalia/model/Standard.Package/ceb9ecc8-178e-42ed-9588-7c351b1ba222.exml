@@ -13,6 +13,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="19087b9e-2151-480a-9771-5234e89fc747"/>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Usuario" mc="Standard.Actor" uid="28be2b4e-e2ae-4ce5-bb2e-942a1552325f"/>
         <COMPID name="Pedir cita" mc="Standard.UseCase" uid="6e27fecd-84b8-4168-acf8-1832f34e4c90"/>
@@ -74,46 +77,49 @@
         <COMPID name="Cita" mc="Standard.Class" uid="65480d88-e953-4333-bab9-758ad3a6cec0"/>
         <COMPID name="Viaje" mc="Standard.Class" uid="73fd04b7-715a-4be9-a0df-bb8fbd878aec"/>
         <COMPID name="Administrativo" mc="Standard.Class" uid="0c6ecc56-db36-4ac0-abb3-a6ca434574fd"/>
-        <COMPID name="Jefe" mc="Standard.Class" uid="a2c0952e-0af2-4a0a-a585-a27831b9bffa"/>
+        <COMPID name="Supervisor" mc="Standard.Class" uid="a2c0952e-0af2-4a0a-a585-a27831b9bffa"/>
         <COMPID name="Tarifa" mc="Standard.Class" uid="4e07df30-32e0-4bb0-a984-ddb245104797"/>
         <COMPID name="Conductor" mc="Standard.Class" uid="eaf3bcd7-0730-421a-84c7-df7ab486eed6"/>
         <COMPID name="Bus" mc="Standard.Class" uid="0d104b73-be3f-4971-b719-d22d7648a426"/>
         <COMPID name="Linea" mc="Standard.Class" uid="f43fa83d-0b6e-4dc7-9399-11fe6c43ae23"/>
         <COMPID name="Parada" mc="Standard.Class" uid="7cf11ae2-dc66-45d8-a438-3d99572a1a22"/>
         <COMPID name="Retraso" mc="Standard.Class" uid="e3aace71-d0f4-4335-9240-4bff02d32c86"/>
-        <COMPID name="ListaCita" mc="Standard.Class" uid="ceea9ddd-305e-4996-8dcc-c259cbee05f3"/>
+        <COMPID name="ListaCitas" mc="Standard.Class" uid="ceea9ddd-305e-4996-8dcc-c259cbee05f3"/>
         <COMPID name="GestorCita" mc="Standard.Class" uid="ede2e069-3339-42e1-bd64-afbf2eaf3577"/>
-        <COMPID name="ListaUsuario" mc="Standard.Class" uid="d3702cbe-b74a-420b-afb3-e7a31995b42c"/>
+        <COMPID name="ListaUsuarios" mc="Standard.Class" uid="d3702cbe-b74a-420b-afb3-e7a31995b42c"/>
         <COMPID name="GestorUsuario" mc="Standard.Class" uid="55ba5fb7-e960-4270-a776-4780ba3ce593"/>
-        <COMPID name="ListaIncidencia" mc="Standard.Class" uid="466e2e56-4f1f-47f4-9e84-8e1d2aa3ebd6"/>
+        <COMPID name="ListaIncidencias" mc="Standard.Class" uid="466e2e56-4f1f-47f4-9e84-8e1d2aa3ebd6"/>
         <COMPID name="GestorIncidencia" mc="Standard.Class" uid="a6a8215a-d546-46b9-b6fa-483353584c6c"/>
-        <COMPID name="ListaTarifa" mc="Standard.Class" uid="22351e00-7f28-460f-98e2-e7a1905fb638"/>
+        <COMPID name="ListaTarifas" mc="Standard.Class" uid="22351e00-7f28-460f-98e2-e7a1905fb638"/>
         <COMPID name="GestorTarifa" mc="Standard.Class" uid="5b4b2b06-c107-41ae-a5c2-9e747fc48df8"/>
-        <COMPID name="ListaRetraso" mc="Standard.Class" uid="fb598cf1-749f-460c-9eca-da070eea594d"/>
+        <COMPID name="ListaRetrasos" mc="Standard.Class" uid="fb598cf1-749f-460c-9eca-da070eea594d"/>
         <COMPID name="GestorRetraso" mc="Standard.Class" uid="bc08f80d-d336-4086-b130-11c1de8db7f3"/>
-        <COMPID name="ListaConductor" mc="Standard.Class" uid="f7ff10bc-7cbb-4cf3-b751-d778a241e022"/>
+        <COMPID name="ListaConductores" mc="Standard.Class" uid="f7ff10bc-7cbb-4cf3-b751-d778a241e022"/>
         <COMPID name="GestorConductor" mc="Standard.Class" uid="008ef346-fc32-4fb9-b468-daa0d94ca205"/>
-        <COMPID name="ListaBus" mc="Standard.Class" uid="81323fab-7f27-40b7-8f7a-8da328d73cde"/>
-        <COMPID name="GestorBus" mc="Standard.Class" uid="2a2ef70e-1e41-4dff-b6e9-52309e6520a9"/>
-        <COMPID name="ListaLinea" mc="Standard.Class" uid="99870022-8720-470f-b900-7df8d558ceae"/>
+        <COMPID name="ListaAutobuses" mc="Standard.Class" uid="81323fab-7f27-40b7-8f7a-8da328d73cde"/>
+        <COMPID name="GestorAutobus" mc="Standard.Class" uid="2a2ef70e-1e41-4dff-b6e9-52309e6520a9"/>
+        <COMPID name="ListaLineas" mc="Standard.Class" uid="99870022-8720-470f-b900-7df8d558ceae"/>
         <COMPID name="GestorLinea" mc="Standard.Class" uid="cc8ebfcd-ec79-4eda-872d-117551c71140"/>
-        <COMPID name="ListaParada" mc="Standard.Class" uid="fbbf0ab4-4a3d-4e8f-b68c-69846f6da9fa"/>
+        <COMPID name="ListaParadas" mc="Standard.Class" uid="fbbf0ab4-4a3d-4e8f-b68c-69846f6da9fa"/>
         <COMPID name="GestorParada" mc="Standard.Class" uid="919e1a24-50f6-4737-9610-fe76ee3db45c"/>
         <COMPID name="Horario" mc="Standard.Class" uid="868380ea-992b-45a5-b674-1b916e61837a"/>
-        <COMPID name="ListaHorario" mc="Standard.Class" uid="7aa2ece1-abe5-403b-a6d1-e7ccc3b860a1"/>
+        <COMPID name="ListaHorarios" mc="Standard.Class" uid="7aa2ece1-abe5-403b-a6d1-e7ccc3b860a1"/>
         <COMPID name="GestorHorario" mc="Standard.Class" uid="9c5f92a4-31ec-4d28-9909-13fe3c5572c2"/>
-        <COMPID name="ListaViaje" mc="Standard.Class" uid="944be66f-a715-4db4-a321-8acfac736f55"/>
+        <COMPID name="ListaViajes" mc="Standard.Class" uid="944be66f-a715-4db4-a321-8acfac736f55"/>
         <COMPID name="GestorViaje" mc="Standard.Class" uid="1b51c91a-e026-4401-acc3-c44724c0a82e"/>
-        <COMPID name="ListaAdministrativo" mc="Standard.Class" uid="a9633f9a-6cb6-458a-845a-faefdfa2a8e9"/>
+        <COMPID name="ListaAdministrativos" mc="Standard.Class" uid="a9633f9a-6cb6-458a-845a-faefdfa2a8e9"/>
         <COMPID name="GestorAdministrativo" mc="Standard.Class" uid="497684d3-6e27-4087-9d0e-3249cf4ecf6a"/>
-        <COMPID name="ListaAbono" mc="Standard.Class" uid="0bc5f6db-267b-4709-ba59-0f72d14dcc2a"/>
+        <COMPID name="ListaAbonos" mc="Standard.Class" uid="0bc5f6db-267b-4709-ba59-0f72d14dcc2a"/>
         <COMPID name="GestorAbono" mc="Standard.Class" uid="92737460-5fe6-4321-afa5-18d978f8ef72"/>
         <COMPID name="GestorTarjetaTranporte" mc="Standard.Class" uid="5884cf9a-1d5f-4ba9-bfd2-25595dcd763f"/>
-        <COMPID name="ListaTransporte" mc="Standard.Class" uid="622e46a0-3bb2-4fd4-b6f9-5371f497d216"/>
-        <COMPID name="ListaAlerta" mc="Standard.Class" uid="b3bf784e-3e9d-4062-a6f5-a6e5f5773182"/>
+        <COMPID name="ListaTarjetaTransportes" mc="Standard.Class" uid="622e46a0-3bb2-4fd4-b6f9-5371f497d216"/>
+        <COMPID name="ListaAlertas" mc="Standard.Class" uid="b3bf784e-3e9d-4062-a6f5-a6e5f5773182"/>
         <COMPID name="GestorAlerta" mc="Standard.Class" uid="21f8161f-46d6-4c24-8411-f09d5794e8a1"/>
-        <COMPID name="ListaCalificacion" mc="Standard.Class" uid="f0ac5d6f-474c-43d3-ae1c-d08aed6b435a"/>
+        <COMPID name="ListaCalificaciones" mc="Standard.Class" uid="f0ac5d6f-474c-43d3-ae1c-d08aed6b435a"/>
         <COMPID name="GestorCalificacion" mc="Standard.Class" uid="cdcc04c1-f753-4144-a417-3a3136f62c93"/>
+        <COMPID name="ListaSupervisores" mc="Standard.Class" uid="d5df21c5-5177-4733-89b0-a94b9113c174"/>
+        <COMPID name="GestorSupervisor" mc="Standard.Class" uid="6df043df-6c6b-4d63-98fd-39f861a90c01"/>
+        <COMPID name="ExisteRetraso" mc="Standard.UseCase" uid="ffbcd136-2aac-4cdc-9e9f-ebc0f7cd38c2"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Casos de Uso Vectalia" mc="Standard.UseCaseDiagram" uid="401ccfb9-b1ee-49d8-9b22-0ad38495397b"/>

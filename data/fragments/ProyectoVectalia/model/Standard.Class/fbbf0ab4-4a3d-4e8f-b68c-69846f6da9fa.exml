@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaParada" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaParadas" version="4">
   <OBJECT>
-    <ID name="ListaParada" mc="Standard.Class" uid="fbbf0ab4-4a3d-4e8f-b68c-69846f6da9fa"/>
+    <ID name="ListaParadas" mc="Standard.Class" uid="fbbf0ab4-4a3d-4e8f-b68c-69846f6da9fa"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ListaParada]]></ATT>
+      <ATT name="Name"><![CDATA[ListaParadas]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

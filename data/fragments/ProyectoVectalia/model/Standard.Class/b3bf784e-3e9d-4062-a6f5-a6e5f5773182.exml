@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaAlerta" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaAlertas" version="4">
   <OBJECT>
-    <ID name="ListaAlerta" mc="Standard.Class" uid="b3bf784e-3e9d-4062-a6f5-a6e5f5773182"/>
+    <ID name="ListaAlertas" mc="Standard.Class" uid="b3bf784e-3e9d-4062-a6f5-a6e5f5773182"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ListaAlerta]]></ATT>
+      <ATT name="Name"><![CDATA[ListaAlertas]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <REFOBJ>
-          <ID name="tiene" mc="Standard.AssociationEnd" uid="bb212f36-6b7b-4cf5-a03a-f5ad5d1eccad"/>
+          <ID name="contiene" mc="Standard.AssociationEnd" uid="bb212f36-6b7b-4cf5-a03a-f5ad5d1eccad"/>
         </REFOBJ>
         <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="307df577-2b18-49c3-a8c3-a79c5255a884"/>

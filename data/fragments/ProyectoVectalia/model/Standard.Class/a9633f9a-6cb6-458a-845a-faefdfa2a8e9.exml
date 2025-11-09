@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaAdministrativo" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaAdministrativos" version="4">
   <OBJECT>
-    <ID name="ListaAdministrativo" mc="Standard.Class" uid="a9633f9a-6cb6-458a-845a-faefdfa2a8e9"/>
+    <ID name="ListaAdministrativos" mc="Standard.Class" uid="a9633f9a-6cb6-458a-845a-faefdfa2a8e9"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ListaAdministrativo]]></ATT>
+      <ATT name="Name"><![CDATA[ListaAdministrativos]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

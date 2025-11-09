@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaRetraso" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaRetrasos" version="4">
   <OBJECT>
-    <ID name="ListaRetraso" mc="Standard.Class" uid="fb598cf1-749f-460c-9eca-da070eea594d"/>
+    <ID name="ListaRetrasos" mc="Standard.Class" uid="fb598cf1-749f-460c-9eca-da070eea594d"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ListaRetraso]]></ATT>
+      <ATT name="Name"><![CDATA[ListaRetrasos]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

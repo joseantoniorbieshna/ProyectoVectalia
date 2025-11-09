@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaBus" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaAutobuses" version="4">
   <OBJECT>
-    <ID name="ListaBus" mc="Standard.Class" uid="81323fab-7f27-40b7-8f7a-8da328d73cde"/>
+    <ID name="ListaAutobuses" mc="Standard.Class" uid="81323fab-7f27-40b7-8f7a-8da328d73cde"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ListaBus]]></ATT>
+      <ATT name="Name"><![CDATA[ListaAutobuses]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <REFOBJ>
-          <ID name="tiene" mc="Standard.AssociationEnd" uid="5aa777d8-7dce-4fe7-aae6-c434e987a23e"/>
+          <ID name="contiene" mc="Standard.AssociationEnd" uid="5aa777d8-7dce-4fe7-aae6-c434e987a23e"/>
         </REFOBJ>
         <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="1fabd7c1-73d5-474f-85b6-9eaecf567b21"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GestorAutobus" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GestorSupervisor" version="4">
   <OBJECT>
-    <ID name="GestorAutobus" mc="Standard.Class" uid="2a2ef70e-1e41-4dff-b6e9-52309e6520a9"/>
+    <ID name="GestorSupervisor" mc="Standard.Class" uid="6df043df-6c6b-4d63-98fd-39f861a90c01"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[GestorAutobus]]></ATT>
+      <ATT name="Name"><![CDATA[GestorSupervisor]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <REFOBJ>
-          <ID name="usa" mc="Standard.AssociationEnd" uid="01ae1146-2b21-4de2-b0c9-cf4e8b2b518e"/>
+          <ID name="listaSupervisores" mc="Standard.AssociationEnd" uid="a957446d-4769-43af-9ff8-978a428afceb"/>
         </REFOBJ>
       </COMP>
     </DEPENDENCIES>

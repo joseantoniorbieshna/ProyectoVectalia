@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaConductor" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaConductores" version="4">
   <OBJECT>
-    <ID name="ListaConductor" mc="Standard.Class" uid="f7ff10bc-7cbb-4cf3-b751-d778a241e022"/>
+    <ID name="ListaConductores" mc="Standard.Class" uid="f7ff10bc-7cbb-4cf3-b751-d778a241e022"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ListaConductor]]></ATT>
+      <ATT name="Name"><![CDATA[ListaConductores]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -75,7 +75,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <REFOBJ>
-          <ID name="uso" mc="Standard.AssociationEnd" uid="f8e68d57-497d-45f6-97b1-5681b4d101b4"/>
+          <ID name="contiene" mc="Standard.AssociationEnd" uid="f8e68d57-497d-45f6-97b1-5681b4d101b4"/>
         </REFOBJ>
       </COMP>
     </DEPENDENCIES>

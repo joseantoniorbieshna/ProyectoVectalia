@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaCalificacion" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ListaCalificaciones" version="4">
   <OBJECT>
-    <ID name="ListaCalificacion" mc="Standard.Class" uid="f0ac5d6f-474c-43d3-ae1c-d08aed6b435a"/>
+    <ID name="ListaCalificaciones" mc="Standard.Class" uid="f0ac5d6f-474c-43d3-ae1c-d08aed6b435a"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ListaCalificacion]]></ATT>
+      <ATT name="Name"><![CDATA[ListaCalificaciones]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
