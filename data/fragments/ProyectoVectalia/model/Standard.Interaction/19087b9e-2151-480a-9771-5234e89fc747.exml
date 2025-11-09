@@ -179,7 +179,7 @@
           <ID name="CombinedFragment" mc="Standard.CombinedFragment" uid="797b60d0-71a4-4391-9d57-c2f98fe01431"/>
           <ATTRIBUTES>
             <ATT name="Operator">LoopOp</ATT>
-            <ATT name="LineNumber">203</ATT>
+            <ATT name="LineNumber">194</ATT>
             <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -189,8 +189,8 @@
                 <ID name="" mc="Standard.InteractionOperand" uid="0827400a-b273-4c12-b243-454a49e71e7b"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[listaRetrasos.Size()]]></ATT>
-                  <ATT name="EndLineNumber">344</ATT>
-                  <ATT name="LineNumber">203</ATT>
+                  <ATT name="EndLineNumber">335</ATT>
+                  <ATT name="LineNumber">194</ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -426,7 +426,7 @@
           <ID name="CombinedFragment" mc="Standard.CombinedFragment" uid="04bf85f5-b1e1-4aa0-9445-c81c1721118b"/>
           <ATTRIBUTES>
             <ATT name="Operator">AltOp</ATT>
-            <ATT name="LineNumber">452</ATT>
+            <ATT name="LineNumber">474</ATT>
             <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -436,8 +436,8 @@
                 <ID name="" mc="Standard.InteractionOperand" uid="45e4c008-dd26-4934-988c-13cf01dd6d2f"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[existe=False]]></ATT>
-                  <ATT name="EndLineNumber">576</ATT>
-                  <ATT name="LineNumber">452</ATT>
+                  <ATT name="EndLineNumber">598</ATT>
+                  <ATT name="LineNumber">474</ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -447,8 +447,8 @@
                 <ID name="InteractionOperand" mc="Standard.InteractionOperand" uid="70a5863e-3c99-486e-ae50-9745526840ac"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[existe=True]]></ATT>
-                  <ATT name="EndLineNumber">653</ATT>
-                  <ATT name="LineNumber">577</ATT>
+                  <ATT name="EndLineNumber">675</ATT>
+                  <ATT name="LineNumber">599</ATT>
                   <ATT name="Name"><![CDATA[InteractionOperand]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -488,6 +488,56 @@
           </DEPENDENCIES>
         </OBJECT>
         <COMPID name="InteractionOperand" mc="Standard.InteractionOperand" uid="70a5863e-3c99-486e-ae50-9745526840ac"/>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="4469d06e-cc6d-4921-aa7d-464e0ea416c1"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">396</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="añadirAbono()" mc="Standard.Message" uid="8eb78c4d-3c6f-4c79-b08f-2cea72963a9e"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">CreateMessage</ATT>
+                  <ATT name="Sequence"><![CDATA[6]]></ATT>
+                  <ATT name="Name"><![CDATA[añadirAbono()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="411e09d8-7338-461e-a2f5-fc7dec20383f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="411e09d8-7338-461e-a2f5-fc7dec20383f"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">396</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Retraso" mc="Standard.Lifeline" uid="4bb4f3fb-c2ea-433c-8637-501e3f21187a"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedLine">
         <OBJECT>
