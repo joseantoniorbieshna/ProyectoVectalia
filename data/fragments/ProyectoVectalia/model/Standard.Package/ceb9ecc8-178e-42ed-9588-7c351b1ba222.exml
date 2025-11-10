@@ -26,7 +26,6 @@
         <COMPID name="Recarga viajes" mc="Standard.UseCase" uid="67cdc6f2-e101-4abf-90cf-433a2897cb0f"/>
         <COMPID name="Consultar horarios" mc="Standard.UseCase" uid="93c9d292-5e0c-4ba5-a6ff-9f8c2673ce56"/>
         <COMPID name="Consultar líneas" mc="Standard.UseCase" uid="3a3f478f-3ea1-4676-b466-700d0e7521ae"/>
-        <COMPID name="Guardar paradas o lineas favoritas" mc="Standard.UseCase" uid="4e884b9b-db97-4553-bf13-35f9a9338ced"/>
         <COMPID name="Consultar preferencias" mc="Standard.UseCase" uid="9c0346e2-8d7c-4496-a90f-5398b2078814"/>
         <COMPID name="Calificar servicios" mc="Standard.UseCase" uid="54bb60a9-ca92-4ffb-86ff-9ffcc4dce4ca"/>
         <COMPID name="Consultar alertas" mc="Standard.UseCase" uid="e53c4aed-c569-4256-a201-6b8828eb377d"/>
@@ -120,7 +119,7 @@
         <COMPID name="GestorCalificacion" mc="Standard.Class" uid="cdcc04c1-f753-4144-a417-3a3136f62c93"/>
         <COMPID name="ListaSupervisores" mc="Standard.Class" uid="d5df21c5-5177-4733-89b0-a94b9113c174"/>
         <COMPID name="GestorSupervisor" mc="Standard.Class" uid="6df043df-6c6b-4d63-98fd-39f861a90c01"/>
-        <COMPID name="ExisteRetraso" mc="Standard.UseCase" uid="ffbcd136-2aac-4cdc-9e9f-ebc0f7cd38c2"/>
+        <COMPID name="Existe Retraso" mc="Standard.UseCase" uid="ffbcd136-2aac-4cdc-9e9f-ebc0f7cd38c2"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Casos de Uso Vectalia" mc="Standard.UseCaseDiagram" uid="401ccfb9-b1ee-49d8-9b22-0ad38495397b"/>
