@@ -162,13 +162,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="buscarLinea(idLinea)" mc="Standard.Message" uid="2030942e-cdf9-4e17-bdf7-9cc23a5a829d"/>
+                <ID name="getIdLinea()" mc="Standard.Message" uid="2030942e-cdf9-4e17-bdf7-9cc23a5a829d"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[3]]></ATT>
-                  <ATT name="Name"><![CDATA[buscarLinea(idLinea)]]></ATT>
+                  <ATT name="Name"><![CDATA[getIdLinea()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -217,13 +217,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="resultadoBusqueda()" mc="Standard.Message" uid="ff3ee796-daa6-464f-98bf-c474a4593340"/>
+                <ID name="resultadoGetIdLinea()" mc="Standard.Message" uid="ff3ee796-daa6-464f-98bf-c474a4593340"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
                   <ATT name="Sequence"><![CDATA[4]]></ATT>
-                  <ATT name="Name"><![CDATA[resultadoBusqueda()]]></ATT>
+                  <ATT name="Name"><![CDATA[resultadoGetIdLinea()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -287,13 +287,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="consultarLinea(idLinea)" mc="Standard.Message" uid="0b299e61-b995-42ca-abdc-15f3ccb017a5"/>
+                <ID name="buscarLinea(idLinea)" mc="Standard.Message" uid="0b299e61-b995-42ca-abdc-15f3ccb017a5"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ASyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[2]]></ATT>
-                  <ATT name="Name"><![CDATA[consultarLinea(idLinea)]]></ATT>
+                  <ATT name="Name"><![CDATA[buscarLinea(idLinea)]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -337,13 +337,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="resultadoConsulta()" mc="Standard.Message" uid="c5aae2f2-252a-4016-9057-57881ff5ba46"/>
+                <ID name="resultadoBuscarLinea()" mc="Standard.Message" uid="c5aae2f2-252a-4016-9057-57881ff5ba46"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
                   <ATT name="Sequence"><![CDATA[5]]></ATT>
-                  <ATT name="Name"><![CDATA[resultadoConsulta()]]></ATT>
+                  <ATT name="Name"><![CDATA[resultadoBuscarLinea()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>

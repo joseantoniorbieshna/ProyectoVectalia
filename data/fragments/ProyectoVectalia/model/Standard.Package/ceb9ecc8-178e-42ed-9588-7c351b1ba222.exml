@@ -17,6 +17,9 @@
         <COMPID name="Interaction" mc="Standard.Interaction" uid="19087b9e-2151-480a-9771-5234e89fc747"/>
         <COMPID name="Interaction1" mc="Standard.Interaction" uid="28c15e4e-253a-47fa-bb58-597d06d61b2c"/>
         <COMPID name="Interaction2" mc="Standard.Interaction" uid="36b7dc3d-33dd-48e8-bc19-0744a36ec4db"/>
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="1cec2e9c-536f-4f1e-85a3-8e4ff17f30d0"/>
+        <COMPID name="State Machine1" mc="Standard.StateMachine" uid="32ca8fa6-74a7-4586-b390-0e33055f95e3"/>
+        <COMPID name="State Machine2" mc="Standard.StateMachine" uid="f074b191-5b97-4f71-89ac-df0a41a2182b"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Usuario" mc="Standard.Actor" uid="28be2b4e-e2ae-4ce5-bb2e-942a1552325f"/>

@@ -20,13 +20,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="pedirCita(fecha, motivo)" mc="Standard.Message" uid="afc2faaf-3f27-49c0-9e16-c82678f5f712"/>
+                <ID name="pedirCita(idUsuario, fecha, motivo)" mc="Standard.Message" uid="afc2faaf-3f27-49c0-9e16-c82678f5f712"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ASyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[pedirCita(fecha, motivo)]]></ATT>
+                  <ATT name="Name"><![CDATA[pedirCita(idUsuario, fecha, motivo)]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -75,13 +75,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="pedirCita(idUsuario, fecha, motivo)" mc="Standard.Message" uid="32ed2724-a1af-4d05-9578-bb02a1ad3d02"/>
+                <ID name="buscarCita(idCita)" mc="Standard.Message" uid="32ed2724-a1af-4d05-9578-bb02a1ad3d02"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ASyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[2]]></ATT>
-                  <ATT name="Name"><![CDATA[pedirCita(idUsuario, fecha, motivo)]]></ATT>
+                  <ATT name="Name"><![CDATA[buscarCita(idCita)]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -217,13 +217,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="BuscarCita(string idCita)" mc="Standard.Message" uid="b5818940-aa0a-4ca5-bec8-142135ceae03"/>
+                <ID name="getIdCita()" mc="Standard.Message" uid="b5818940-aa0a-4ca5-bec8-142135ceae03"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[3]]></ATT>
-                  <ATT name="Name"><![CDATA[BuscarCita(string idCita)]]></ATT>
+                  <ATT name="Name"><![CDATA[getIdCita()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -272,13 +272,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="resultadoBusqueda()" mc="Standard.Message" uid="04e32bab-75d8-420a-be5c-192b8ea62fef"/>
+                <ID name="resultadoGetIdCita()" mc="Standard.Message" uid="04e32bab-75d8-420a-be5c-192b8ea62fef"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
                   <ATT name="Sequence"><![CDATA[4]]></ATT>
-                  <ATT name="Name"><![CDATA[resultadoBusqueda()]]></ATT>
+                  <ATT name="Name"><![CDATA[resultadoGetIdCita()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -342,13 +342,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="resultadoExiste()" mc="Standard.Message" uid="c8d967e1-3de7-4473-83f5-250dafac1d5b"/>
+                <ID name="resultadoBuscarCita()" mc="Standard.Message" uid="c8d967e1-3de7-4473-83f5-250dafac1d5b"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
                   <ATT name="Sequence"><![CDATA[5]]></ATT>
-                  <ATT name="Name"><![CDATA[resultadoExiste()]]></ATT>
+                  <ATT name="Name"><![CDATA[resultadoBuscarCita()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -461,9 +461,6 @@
               </REFOBJ>
               <REFOBJ>
                 <ID name="GestorCita" mc="Standard.Lifeline" uid="a53a1b99-3e6a-4554-ac09-9bb373cc8ca4"/>
-              </REFOBJ>
-              <REFOBJ>
-                <ID name="Cita" mc="Standard.Lifeline" uid="80449503-f399-419d-895c-d7af72fccc0b"/>
               </REFOBJ>
               <REFOBJ>
                 <ID name="Cita" mc="Standard.Lifeline" uid="2ee62a02-672a-4414-8958-3df95415e4d3"/>
@@ -778,20 +775,20 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="f20575b5-0472-41fa-a456-3cd94bb1d49e"/>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="dfc5f52f-bee4-4a02-a6ff-fdb69b2307b9"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">598</ATT>
+            <ATT name="LineNumber">588</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="añadirCita(nuevaCita)" mc="Standard.Message" uid="d87763a5-fb1f-44a9-8581-ec07f11107f9"/>
+                <ID name="añadirCita(nuevaCita)" mc="Standard.Message" uid="a0cfbf5e-ce71-4032-85dd-f2860d3f63fd"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
-                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="SortOfMessage">CreateMessage</ATT>
                   <ATT name="Sequence"><![CDATA[7]]></ATT>
                   <ATT name="Name"><![CDATA[añadirCita(nuevaCita)]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -799,7 +796,7 @@
                 <DEPENDENCIES>
                   <LINK relation="ReceiveEvent">
                     <REFOBJ>
-                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="88cfab57-8a5b-42b4-b560-dce65bb7ba10"/>
+                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="1ae52d34-6d1d-4331-86ad-4bcf43741063"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -813,56 +810,16 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="88cfab57-8a5b-42b4-b560-dce65bb7ba10"/>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="1ae52d34-6d1d-4331-86ad-4bcf43741063"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">618</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Started">
-              <REFOBJ>
-                <ID name="" mc="Standard.ExecutionSpecification" uid="fb53c76d-6330-4e8a-b13b-9eb15ca6c2d8"/>
-              </REFOBJ>
-            </LINK>
-            <LINK relation="Covered">
-              <REFOBJ>
-                <ID name="Cita" mc="Standard.Lifeline" uid="80449503-f399-419d-895c-d7af72fccc0b"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="a6ab4d35-4e24-4aa1-9a20-8f58654513dc"/>
-          <ATTRIBUTES>
-            <ATT name="LineNumber">678</ATT>
+            <ATT name="LineNumber">588</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Cita" mc="Standard.Lifeline" uid="80449503-f399-419d-895c-d7af72fccc0b"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.ExecutionSpecification" uid="fb53c76d-6330-4e8a-b13b-9eb15ca6c2d8"/>
-          <ATTRIBUTES>
-            <ATT name="LineNumber">618</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Finish">
-              <REFOBJ>
-                <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="a6ab4d35-4e24-4aa1-9a20-8f58654513dc"/>
-              </REFOBJ>
-            </LINK>
-            <LINK relation="Covered">
-              <REFOBJ>
-                <ID name="Cita" mc="Standard.Lifeline" uid="80449503-f399-419d-895c-d7af72fccc0b"/>
+                <ID name="Cita" mc="Standard.Lifeline" uid="5083d33e-5a65-4914-a0ac-4d31f4a9223b"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -906,7 +863,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Cita" mc="Standard.Lifeline" uid="80449503-f399-419d-895c-d7af72fccc0b"/>
+          <ID name="Cita" mc="Standard.Lifeline" uid="5083d33e-5a65-4914-a0ac-4d31f4a9223b"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
             <ATT name="Name"><![CDATA[Cita]]></ATT>
