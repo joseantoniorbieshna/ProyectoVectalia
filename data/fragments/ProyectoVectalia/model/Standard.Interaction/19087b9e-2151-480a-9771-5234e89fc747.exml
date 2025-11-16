@@ -40,7 +40,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
+                <ID name="Con:Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -60,7 +60,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -95,7 +95,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -115,7 +115,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -135,7 +135,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -150,7 +150,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -170,7 +170,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -199,10 +199,10 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
               <REFOBJ>
-                <ID name="Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
+                <ID name="Ret:Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -253,7 +253,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -273,7 +273,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
+                <ID name="Ret:Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -324,7 +324,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
+                <ID name="Ret:Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -344,7 +344,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
+                <ID name="Ret:Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -359,7 +359,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -394,7 +394,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -414,7 +414,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -429,7 +429,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -449,7 +449,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -489,13 +489,13 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
               <REFOBJ>
-                <ID name="Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
+                <ID name="Ret:Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
               </REFOBJ>
             </LINK>
             <COMP relation="Descriptor">
@@ -547,7 +547,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -567,7 +567,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
+                <ID name="Con:Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -582,7 +582,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
+                <ID name="Con:Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -602,7 +602,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
+                <ID name="Con:Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -637,7 +637,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -657,7 +657,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
+                <ID name="Con:Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -672,7 +672,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
+                <ID name="Con:Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -692,7 +692,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
+                <ID name="Con:Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -727,7 +727,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -742,7 +742,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -793,7 +793,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+                <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -813,7 +813,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -828,7 +828,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -848,7 +848,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -883,7 +883,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+                <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -906,37 +906,37 @@
       </COMP>
       <COMP relation="OwnedLine">
         <OBJECT>
-          <ID name="GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
+          <ID name="Ge_Ret:GestorRetraso" mc="Standard.Lifeline" uid="b0066fa0-1a92-4ccb-ace4-b8dea2c17e38"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[GestorRetraso]]></ATT>
+            <ATT name="Name"><![CDATA[Ge_Ret:GestorRetraso]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
+          <ID name="Li_Ret:ListaRetrasos" mc="Standard.Lifeline" uid="2b2e5bd3-9569-4574-a549-f9c00a8bcd85"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[ListaRetrasos]]></ATT>
+            <ATT name="Name"><![CDATA[Li_Ret:ListaRetrasos]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
+          <ID name="Ret:Retraso" mc="Standard.Lifeline" uid="a107f73d-c5f4-4791-ab9f-f8bf15d96429"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[Retraso]]></ATT>
+            <ATT name="Name"><![CDATA[Ret:Retraso]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
+          <ID name="Con:Conductor" mc="Standard.Lifeline" uid="73ca0d16-3a0a-4837-99a5-87a6d7c9a5dd"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[Conductor]]></ATT>
+            <ATT name="Name"><![CDATA[Con:Conductor]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
