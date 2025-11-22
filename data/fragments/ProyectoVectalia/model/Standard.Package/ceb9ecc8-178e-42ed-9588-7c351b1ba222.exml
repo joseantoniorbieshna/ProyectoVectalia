@@ -20,6 +20,8 @@
         <COMPID name="State Machine" mc="Standard.StateMachine" uid="1cec2e9c-536f-4f1e-85a3-8e4ff17f30d0"/>
         <COMPID name="State Machine1" mc="Standard.StateMachine" uid="32ca8fa6-74a7-4586-b390-0e33055f95e3"/>
         <COMPID name="State Machine2" mc="Standard.StateMachine" uid="f074b191-5b97-4f71-89ac-df0a41a2182b"/>
+        <COMPID name="Activity" mc="Standard.Activity" uid="e234a824-7988-43e7-a8d2-7686d7adde4a"/>
+        <COMPID name="Activity1" mc="Standard.Activity" uid="0018693e-8df3-40a9-8b30-8f7069ab915c"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Usuario" mc="Standard.Actor" uid="28be2b4e-e2ae-4ce5-bb2e-942a1552325f"/>
@@ -124,10 +126,16 @@
         <COMPID name="ListaSupervisores" mc="Standard.Class" uid="d5df21c5-5177-4733-89b0-a94b9113c174"/>
         <COMPID name="GestorSupervisor" mc="Standard.Class" uid="6df043df-6c6b-4d63-98fd-39f861a90c01"/>
         <COMPID name="Existe Retraso" mc="Standard.UseCase" uid="ffbcd136-2aac-4cdc-9e9f-ebc0f7cd38c2"/>
+        <COMPID name="&lt;&lt;Library&gt;&gt; ServicioTransporte" mc="Standard.Component" uid="84a3de32-d703-4548-8a92-3bcb1b7cba90"/>
+        <COMPID name="&lt;&lt;Library&gt;&gt; E/S" mc="Standard.Component" uid="62ddecc6-8056-44c8-9b6a-a969c4fd558e"/>
+        <COMPID name="&lt;&lt;Library&gt;&gt; Administración" mc="Standard.Component" uid="cec7a3dd-121a-46d0-b893-44daab8a722a"/>
+        <COMPID name="&lt;&lt;Library&gt;&gt; Autobus" mc="Standard.Component" uid="7738e03e-01cb-4389-ab25-2598e071fd1c"/>
+        <COMPID name="&lt;&lt;Library&gt;&gt; Ruta" mc="Standard.Component" uid="7e3b5697-e3e8-4d89-ade9-cbc3505d6ebd"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Casos de Uso Vectalia" mc="Standard.UseCaseDiagram" uid="401ccfb9-b1ee-49d8-9b22-0ad38495397b"/>
         <COMPID name="Diagrama de clases Vectalia" mc="Standard.ClassDiagram" uid="d5ea9bac-9114-43fd-961a-5ae65de50b82"/>
+        <COMPID name="DiagramaComponentes" mc="Standard.ClassDiagram" uid="052f4b23-d4e8-4079-933a-b177c01ed705"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
