@@ -211,11 +211,11 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Sistema" mc="Standard.ActivityPartition" uid="d6c47476-3147-464f-af42-6300e5b82aab"/>
+          <ID name="Validador" mc="Standard.ActivityPartition" uid="d6c47476-3147-464f-af42-6300e5b82aab"/>
           <ATTRIBUTES>
             <ATT name="IsDimension">false</ATT>
             <ATT name="IsExternal">false</ATT>
-            <ATT name="Name"><![CDATA[Sistema]]></ATT>
+            <ATT name="Name"><![CDATA[Validador]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -322,82 +322,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Outgoing">
                     <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="36029ad5-5c9a-4874-b649-5d23d50512b5"/>
-                      <ATTRIBUTES>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="Weight"><![CDATA[1]]></ATT>
-                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Target">
-                          <REFOBJ>
-                            <ID name="Fork/Join" mc="Standard.ForkJoinNode" uid="85769d36-b040-494f-bff4-7f5fc960ec63"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="Espera respuesta" mc="Standard.OpaqueAction" uid="cb6cbf08-318a-4850-9b5c-23d2e360519e"/>
-                <ATTRIBUTES>
-                  <ATT name="Body"></ATT>
-                  <ATT name="IsMultipleInstance">false</ATT>
-                  <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[Espera respuesta]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Outgoing">
-                    <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="5c4894e0-3b85-49a8-8056-b67d82e74764"/>
-                      <ATTRIBUTES>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="Weight"><![CDATA[1]]></ATT>
-                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Target">
-                          <REFOBJ>
-                            <ID name="Fork/Join1" mc="Standard.ForkJoinNode" uid="872826be-87a2-4308-869c-8c8ffb896e61"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="Fork/Join" mc="Standard.ForkJoinNode" uid="85769d36-b040-494f-bff4-7f5fc960ec63"/>
-                <ATTRIBUTES>
-                  <ATT name="IsCombineDuplicate">true</ATT>
-                  <ATT name="JoinSpec"><![CDATA[and]]></ATT>
-                  <ATT name="Name"><![CDATA[Fork/Join]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Outgoing">
-                    <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="5415fc09-d536-4569-a2d6-325cd05ebdb3"/>
-                      <ATTRIBUTES>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="Weight"><![CDATA[1]]></ATT>
-                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Target">
-                          <REFOBJ>
-                            <ID name="Espera respuesta" mc="Standard.OpaqueAction" uid="cb6cbf08-318a-4850-9b5c-23d2e360519e"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="0ffe1264-bfad-4756-a754-1b2ad5712d49"/>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="d95e87b8-5966-40c0-b5c2-b26a7f2aa668"/>
                       <ATTRIBUTES>
                         <ATT name="Guard"></ATT>
                         <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -408,35 +333,6 @@
                         <LINK relation="Target">
                           <REFOBJ>
                             <ID name="Procesa pago(importe, tarjeta)" mc="Standard.OpaqueAction" uid="9b652ed7-b533-49dd-b54a-1f6e3e86f98b"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="Fork/Join1" mc="Standard.ForkJoinNode" uid="872826be-87a2-4308-869c-8c8ffb896e61"/>
-                <ATTRIBUTES>
-                  <ATT name="IsCombineDuplicate">true</ATT>
-                  <ATT name="JoinSpec"><![CDATA[and]]></ATT>
-                  <ATT name="Name"><![CDATA[Fork/Join1]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Outgoing">
-                    <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="100b91d0-3c5f-466f-8c1f-b836b8b0daa9"/>
-                      <ATTRIBUTES>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="Weight"><![CDATA[1]]></ATT>
-                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Target">
-                          <REFOBJ>
-                            <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="b7dc3769-8f88-4a9e-8324-767bc60e5470"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -456,7 +352,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Outgoing">
                     <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="c7a378d3-2b18-4fe3-a2d1-f9869992631f"/>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="474a83c2-2f60-41f1-9078-5f8b3fd6025b"/>
                       <ATTRIBUTES>
                         <ATT name="Guard"></ATT>
                         <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -466,7 +362,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Recibe error" mc="Standard.OpaqueAction" uid="4c8d48dc-f7cd-4819-b0b6-f3bf4c21cc21"/>
+                            <ID name="Actualiza Abono en TarjetaTransporte" mc="Standard.OpaqueAction" uid="af22a3a3-cc9e-4c6a-b3f2-a1f11e2379d3"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -486,23 +382,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Outgoing">
                     <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="4cdc456b-b339-4fb1-a4b1-54a192f02eb1"/>
-                      <ATTRIBUTES>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="Weight"><![CDATA[1]]></ATT>
-                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Target">
-                          <REFOBJ>
-                            <ID name="Actualiza Abono en TarjetaTransporte" mc="Standard.OpaqueAction" uid="af22a3a3-cc9e-4c6a-b3f2-a1f11e2379d3"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="b44e7e1a-80bc-4e50-9bb8-03fc21227466"/>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="4ec014b6-5af2-4762-80b2-96ad8a16d395"/>
                       <ATTRIBUTES>
                         <ATT name="Guard"></ATT>
                         <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -531,23 +411,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Outgoing">
                     <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="a2a1ec04-8005-4e0f-8e26-d366509f1104"/>
-                      <ATTRIBUTES>
-                        <ATT name="Guard"><![CDATA[Sí]]></ATT>
-                        <ATT name="Weight"><![CDATA[1]]></ATT>
-                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Target">
-                          <REFOBJ>
-                            <ID name="Llama a GestorDePagosYRecargas.actualizarTarjeta()" mc="Standard.OpaqueAction" uid="1e4f1eee-21f1-49c0-bab6-eb142e6b00b7"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="0ac26eba-441a-4dfe-a1d4-2f901935e734"/>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="95a00b95-963f-4a14-92e0-2eda1e065121"/>
                       <ATTRIBUTES>
                         <ATT name="Guard"><![CDATA[No]]></ATT>
                         <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -558,6 +422,22 @@
                         <LINK relation="Target">
                           <REFOBJ>
                             <ID name="Muestra error de pago" mc="Standard.OpaqueAction" uid="0b5202f5-296f-4ca6-bfcb-acb1ebd1a8ee"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="e5581ac4-d4e0-4f38-bca8-dfe66fdb2a83"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"><![CDATA[Si]]></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Llama a GestorDePagosYRecargas.actualizarTarjeta()" mc="Standard.OpaqueAction" uid="1e4f1eee-21f1-49c0-bab6-eb142e6b00b7"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -666,7 +546,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Outgoing">
                     <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="d1bf5388-3e1d-4e02-89d8-f9dd94db8fd7"/>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="d9055c6f-8d54-4ff7-916b-dcb69433b4e9"/>
                       <ATTRIBUTES>
                         <ATT name="Guard"></ATT>
                         <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -676,7 +556,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Fork/Join1" mc="Standard.ForkJoinNode" uid="872826be-87a2-4308-869c-8c8ffb896e61"/>
+                            <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="b7dc3769-8f88-4a9e-8324-767bc60e5470"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
