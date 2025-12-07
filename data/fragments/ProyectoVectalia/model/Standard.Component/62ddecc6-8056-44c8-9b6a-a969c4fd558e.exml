@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="&lt;&lt;Library&gt;&gt; E/S" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="&lt;&lt;Library&gt;&gt; E/S (Interfaz Usuario)" version="4">
   <OBJECT>
-    <ID name="&lt;&lt;Library&gt;&gt; E/S" mc="Standard.Component" uid="62ddecc6-8056-44c8-9b6a-a969c4fd558e"/>
+    <ID name="&lt;&lt;Library&gt;&gt; E/S (Interfaz Usuario)" mc="Standard.Component" uid="62ddecc6-8056-44c8-9b6a-a969c4fd558e"/>
     <PID name="proyectovectalia" mc="Standard.Package" uid="ceb9ecc8-178e-42ed-9588-7c351b1ba222"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[<<Library>> E/S]]></ATT>
+      <ATT name="Name"><![CDATA[<<Library>> E/S (Interfaz Usuario)]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
